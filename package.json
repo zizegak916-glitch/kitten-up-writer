@@ -1,0 +1,27 @@
+{
+  "name": "kitten-up-writer",
+  "version": "0.1.0",
+  "description": "An AI writing assistant for long-form creators using Xiaomi MiMo models",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.1.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3",
+    "@types/node": "^20.9.5"
+  },
+  "keywords": [
+    "writing",
+    "assistant",
+    "MiMo",
+    "long-context",
+    "novel"
+  ],
+  "author": "KittenUp Writer Contributors",
+  "license": "MIT"
+}
